@@ -11,7 +11,9 @@
     "url": "https://github.com/benjamint08/probun"
   },
   "devDependencies": {
-    "@types/bun": "^1.1.0"
+    "@types/bun": "^1.1.0",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
