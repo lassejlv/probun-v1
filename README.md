@@ -29,8 +29,8 @@ Probun({
 Create `routes/index.ts`. Export a function with a name of a method. In this case get.
 
 ```ts
-export const GET = async (req: Request): Promise<Response> => {
-  return Response.json({ hello: 'world' });
+export const GET = async (c: Route): Promise<Response> => {
+  return c.json({ message: 'Hello World' });
 };
 ```
 
