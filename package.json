@@ -1,0 +1,26 @@
+{
+  "name": "probun",
+  "description": "Powerful file-based routing for Bun servers",
+  "module": "src/index.ts",
+  "version": "1.0.0-beta",
+  "main": "./lib/index.js",
+  "type": "module",
+  "homepage": "https://probun.dev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamint08/probun"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "build": "bun build.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "zod": "^3.23.8"
+  }
+}
